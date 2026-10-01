@@ -64,6 +64,6 @@ Zwykły HTML, CSS i JavaScript, bez frameworków i backendu. Jedyna zewnętrzna 
 
 [MIT](LICENSE)
 
-## Autorka
+## Autor
 
 Przemek — Product Manager. Projekt zbudowany we współpracy z Claude jako praktyczna nauka profesjonalnego workflow w Git/GitHub.
