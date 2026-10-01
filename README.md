@@ -66,4 +66,4 @@ Zwykły HTML, CSS i JavaScript, bez frameworków i backendu. Jedyna zewnętrzna 
 
 ## Autorka
 
-Patrycja — Product Manager. Projekt zbudowany we współpracy z Claude jako praktyczna nauka profesjonalnego workflow w Git/GitHub.
+Przemek — Product Manager. Projekt zbudowany we współpracy z Claude jako praktyczna nauka profesjonalnego workflow w Git/GitHub.
