@@ -71,8 +71,7 @@
       const list = document.createElement("ol");
       sector.forEach((p) => {
         const li = document.createElement("li");
-        const nrPart = p.nr ? `${p.nr} — ` : "";
-        li.innerHTML = `${nrPart}${escapeHtml(p.name)}` +
+        li.innerHTML = escapeHtml(p.name) +
           (p.club ? ` <span class="participant-club">(${escapeHtml(p.club)})</span>` : "");
         list.appendChild(li);
       });

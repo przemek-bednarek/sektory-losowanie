@@ -4,7 +4,7 @@ Prosta aplikacja webowa do losowego przydzielania uczestników zawodów wędkars
 
 ## Jak to działa
 
-1. Wgrywasz listę uczestników jako plik `.xlsx`, `.xls` lub `.csv` (kolumny: numer startowy, imię i nazwisko, opcjonalnie klub).
+1. Wgrywasz listę uczestników jako plik `.xlsx`, `.xls` lub `.csv` — wystarczy nazwisko i imię, w jednej kolumnie albo w dwóch osobnych.
 2. Ustawiasz liczbę sektorów.
 3. Klikasz **Losuj** — aplikacja losowo dzieli uczestników na sektory tak, aby liczebności różniły się maksymalnie o 1 osobę.
 4. Wynik można wydrukować lub zapisać jako PDF.
