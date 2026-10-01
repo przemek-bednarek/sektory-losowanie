@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Losowanie sektorów — zawody wędkarskie</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="page">
+    <header class="page-header no-print">
+      <h1>Losowanie sektorów</h1>
+      <p class="subtitle">Wgraj listę uczestników, ustaw liczbę sektorów i wylosuj przydział.</p>
+    </header>
+
+    <section class="panel no-print" id="setup-panel">
+      <div class="field">
+        <label for="file-input">Lista uczestników (plik .xlsx, .xls lub .csv)</label>
+        <input type="file" id="file-input" accept=".xlsx,.xls,.csv">
+        <p class="hint">Oczekiwane kolumny: numer startowy, imię i nazwisko, opcjonalnie klub. Jeśli nagłówki są inne, pierwsza kolumna zostanie potraktowana jako numer, druga jako imię i nazwisko.</p>
+      </div>
+
+      <div class="field">
+        <label for="sector-count">Liczba sektorów</label>
+        <input type="number" id="sector-count" min="1" max="30" value="7">
+      </div>
+
+      <div class="field">
+        <button id="draw-btn" class="btn btn-primary" disabled>Losuj</button>
+        <button id="redraw-btn" class="btn btn-secondary" hidden>Losuj ponownie</button>
+      </div>
+
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="panel" id="results-panel" hidden>
+      <div class="results-header">
+        <h2>Wynik losowania</h2>
+        <div class="results-meta" id="results-meta"></div>
+        <button id="print-btn" class="btn btn-secondary no-print">Drukuj / zapisz jako PDF</button>
+      </div>
+      <div id="results-grid" class="results-grid"></div>
+    </section>
+
+    <footer class="page-footer no-print">
+      <p>Losowanie odbywa się lokalnie w przeglądarce — żadne dane nie są nigdzie wysyłane ani zapisywane.</p>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
