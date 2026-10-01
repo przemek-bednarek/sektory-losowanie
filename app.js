@@ -65,7 +65,7 @@
       card.className = "sector-card";
 
       const title = document.createElement("h3");
-      title.textContent = `Sektor ${i + 1} (${sector.length})`;
+      title.textContent = `Sektor ${window.SectorDraw.sectorLabel(i)} (${sector.length})`;
       card.appendChild(title);
 
       const list = document.createElement("ol");
