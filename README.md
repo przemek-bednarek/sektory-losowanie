@@ -2,10 +2,8 @@
 
 Prosta aplikacja webowa do losowego przydzielania uczestników zawodów wędkarskich do sektorów łowiska — z gwarancją, że sektory różnią się liczebnością maksymalnie o jedną osobę.
 
-**Demo:** https://TWOJ-LOGIN.github.io/NAZWA-REPOZYTORIUM/
+**Demo:** https://przemek-bednarek.github.io/sektory-losowanie/
 
-<!-- Dodaj screenshot: wrzuć plik do docs/screenshot.png i odkomentuj linię poniżej -->
-<!-- ![Wynik losowania](docs/screenshot.png) -->
 
 ## Problem
 
