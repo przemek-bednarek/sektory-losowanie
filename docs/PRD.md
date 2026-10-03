@@ -1,6 +1,6 @@
 # PRD — Losowanie sektorów na zawody wędkarskie
 
-**Wersja:** 1.0 · **Status:** w użyciu · **Autorka:** Patrycja
+**Wersja:** 1.0 · **Status:** w użyciu · **Autorka:** Przemek Bednarek
 
 ## Cel i kontekst
 
